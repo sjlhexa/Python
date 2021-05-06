@@ -12,8 +12,6 @@ lives = 6
 from hangman_art import logo
 print(logo)
 
-#Testing code
-print(f'Pssst, the solution is {chosen_word}.')
 
 #Create blanks
 display = []
