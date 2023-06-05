@@ -10,4 +10,4 @@ with open("./Input/Letters/starting_letter.docx") as letter:
         new = text.replace(Chnage,stripped_name)
         print(new)
         with open(f"./Output/ReadyToSend/letter_for_{stripped_name}.docx", 'w') as completed_letter:
-            completed_letter.write((new))
+            completed_letter.write(new)
